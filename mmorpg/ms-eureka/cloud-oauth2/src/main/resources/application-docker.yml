@@ -6,7 +6,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://${SERVER_USERNAME}:${SERVER_PASSWORD}@${SERVER_HOST}:${SERVER_PORT}/eureka/
+      defaultZone: http://${REGISTRY_USERNAME}:${REGISTRY_PASSWORD}@${REGISTRY_HOST}:${REGISTRY_PORT}/eureka/
   instance:
     lease-expiration-duration-in-seconds: 90
     lease-renewal-interval-in-seconds: 30

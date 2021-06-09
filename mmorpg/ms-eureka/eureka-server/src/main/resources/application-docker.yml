@@ -5,8 +5,8 @@ spring:
     name: ${APP_NAME}
   security:
     user:
-      name: ${SERVER_USERNAME}
-      password: ${SERVER_PASSWORD}
+      name: ${REGISTRY_USERNAME}
+      password: ${REGISTRY_PASSWORD}
 eureka:
   instance:
     lease-expiration-duration-in-seconds: 90 #定义服务多久不去续约认为服务失效
@@ -16,6 +16,6 @@ eureka:
     fetch-registry: false #指定是否要从注册中心获取服务（注册中心不需要开启）
     register-with-eureka: false #指定是否要注册到注册中心（注册中心不需要开启）
     service-url:
-      defaultZone: http://${REGISTRY_USERNAME}:${REGISTRY_PASSWORD}@${REGISTRY_IP}:${REGISTRY_PORT}/eureka/
+      defaultZone: http://${REGISTRY_USERNAME}:${REGISTRY_PASSWORD}@${REGISTRY_HOST}:${REGISTRY_PORT}/eureka/
   server:
     enable-self-preservation: false #关闭保护模式

@@ -1,4 +1,4 @@
-H:\20200312springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\config\SecurityConfig.java
-H:\20200312springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\RpgCloudOauth2Application.java
-H:\20200312springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\service\DefaultUserService.java
-H:\20200312springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\config\Oauth2Config.java
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\config\Oauth2Config.java
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\RpgCloudOauth2Application.java
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\service\DefaultUserService.java
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-eureka\cloud-oauth2\src\main\java\rpg\cloud\oauth2\config\SecurityConfig.java

@@ -29,7 +29,7 @@
       <paths name="81.71.36.134">
         <serverdata>
           <mappings>
-            <mapping deploy="/package" local="$PROJECT_DIR$/../package" web="/" />
+            <mapping deploy="/package" local="$PROJECT_DIR$/../../package" web="/" />
           </mappings>
         </serverdata>
       </paths>
