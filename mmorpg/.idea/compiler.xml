@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-oauth2" />
+        <module name="member-user" />
+        <module name="order-core" />
+        <module name="eureka-server" />
+        <module name="product-core" />
+        <module name="cloud-gateway" />
+        <module name="member-authority" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="member-admin" target="1.8" />
+      <module name="member-merchant" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-gateway" options="-parameters" />
+      <module name="cloud-oauth2" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="member-admin" options="-parameters" />
+      <module name="member-authority" options="-parameters" />
+      <module name="member-merchant" options="-parameters" />
+      <module name="member-user" options="-parameters" />
+      <module name="ms-member" options="-parameters" />
+      <module name="ms-order" options="-parameters" />
+      <module name="ms-product" options="-parameters" />
+      <module name="order-core" options="-parameters" />
+      <module name="product-core" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+server:
+  port: 40000
+spring:
+  application:
+    name: rpg-eureka-server
+  security:
+    user:
+      name: cainiao
+      password: 123456
+eureka:
+  instance:
+    hostname: rpg-eureka-server
+    lease-expiration-duration-in-seconds: 90 #定义服务多久不去续约认为服务失效
+    lease-renewal-interval-in-seconds: 30 #定义服务多久去注册中心续约
+    prefer-ip-address: true #优先使用ip作为主机名称
+  client:
+    fetch-registry: false #指定是否要从注册中心获取服务（注册中心不需要开启）
+    register-with-eureka: false #指定是否要注册到注册中心（注册中心不需要开启）
+    service-url:
+      defaultZone: http://cainiao:123456@localhost:40000/eureka/
+  server:
+    enable-self-preservation: false #关闭保护模式

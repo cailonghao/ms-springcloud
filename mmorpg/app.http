@@ -1,0 +1,16 @@
+### Send POST request with body as parameters
+POST http://localhost:41000/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=cainiao&password=123456&grant_type=password&scope=app&client_id=mmorpg&client_secret=123456
+### Send POST request with body as parameters
+POST http://localhost:42000/api/oauth/oauth/token
+Content-Type: application/x-www-form-urlencoded
+
+username=cainiao&password=123456&grant_type=password&scope=app&client_id=mmorpg&client_secret=123456
+### Send POST request with body as parameters
+POST http://localhost:42000/api/user/index
+Content-Type: application/x-www-form-urlencoded
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjMxNzkwNTMsInVzZXJfbmFtZSI6ImNhaW5pYW8iLCJhdXRob3JpdGllcyI6WyJST0xFX2FkbWluIiwiYXBwLWluc2VydCJdLCJqdGkiOiI2OWUyY2YyOS1jNWJlLTRmMzYtYTdlMi00NzZjMzhkNDlhYmYiLCJjbGllbnRfaWQiOiJtbW9ycGciLCJzY29wZSI6WyJhcHAiXX0.34uJMb8cUTfcdjobJLljSBbWi2L4n5ob8FXjqVSq3rk
+
+
