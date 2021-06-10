@@ -9,12 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-oauth2" />
         <module name="order-core" />
+        <module name="authority-client" />
         <module name="user-client" />
         <module name="user-provider" />
+        <module name="authority-provider" />
         <module name="eureka-server" />
         <module name="product-core" />
         <module name="cloud-gateway" />
-        <module name="member-authority" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authority-client" options="-parameters" />
+      <module name="authority-provider" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="cloud-oauth2" options="-parameters" />
       <module name="eureka-server" options="-parameters" />

@@ -4,7 +4,8 @@
     <file url="file://$PROJECT_DIR$/ms-eureka/cloud-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-eureka/cloud-oauth2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-eureka/eureka-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ms-member/member-authority/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-member/member-authority/authority-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ms-member/member-authority/authority-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-member/member-user/user-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-member/member-user/user-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ms-order/order-core/src/main/java" charset="UTF-8" />
