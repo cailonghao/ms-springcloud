@@ -1,0 +1,3 @@
+com\mem\auth\client\service\FeignAuthorityService.class
+com\mem\auth\client\fallback\FeignAuthorityServiceImpl.class
+com\mem\auth\client\config\FeignConfig.class

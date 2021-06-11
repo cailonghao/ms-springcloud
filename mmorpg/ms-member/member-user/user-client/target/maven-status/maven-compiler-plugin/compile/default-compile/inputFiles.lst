@@ -1,0 +1,3 @@
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-member\member-user\user-client\src\main\java\com\member\user\client\config\FeignConfig.java
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-member\member-user\user-client\src\main\java\com\member\user\client\service\FeignUserService.java
+H:\20200312springcloud\ms-springcloud\mmorpg\ms-member\member-user\user-client\src\main\java\com\member\user\client\fallback\FeignUserServiceImpl.java

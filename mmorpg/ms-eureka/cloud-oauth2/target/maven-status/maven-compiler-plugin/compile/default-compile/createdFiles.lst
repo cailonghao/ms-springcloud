@@ -1,0 +1,4 @@
+rpg\cloud\oauth2\config\Oauth2Config.class
+rpg\cloud\oauth2\service\DefaultUserService.class
+rpg\cloud\oauth2\RpgCloudOauth2Application.class
+rpg\cloud\oauth2\config\SecurityConfig.class

@@ -1,0 +1,3 @@
+com\member\user\client\fallback\FeignUserServiceImpl.class
+com\member\user\client\config\FeignConfig.class
+com\member\user\client\service\FeignUserService.class

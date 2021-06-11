@@ -13,6 +13,7 @@
         <module>ms-member</module>
         <module>ms-product</module>
         <module>ms-order</module>
+        <module>ms-common</module>
     </modules>
 
     <parent>

@@ -16,9 +16,11 @@
         <module name="eureka-server" />
         <module name="product-core" />
         <module name="cloud-gateway" />
+        <module name="common-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-security" target="1.8" />
       <module name="member-admin" target="1.8" />
       <module name="member-merchant" target="1.8" />
     </bytecodeTargetLevel>
@@ -29,6 +31,8 @@
       <module name="authority-provider" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="cloud-oauth2" options="-parameters" />
+      <module name="common-base" options="-parameters" />
+      <module name="common-security" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="member-admin" options="-parameters" />
       <module name="member-authority" options="-parameters" />
